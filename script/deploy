@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ssh tiagoinacio@inacio.io <<EOF
+cd /usr/share/nginx/html/inacio.io
+git pull
+npm install --production
+forever restartall
+exit
+EOF
