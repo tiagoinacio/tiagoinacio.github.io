@@ -27,7 +27,7 @@ time, mark, audio, video {
 
 @page {
     size: 21cm 29.7cm;
-    margin: 10mm 30mm 10mm 30mm; /* change the margins as you want them to be. */
+    margin: 10mm 35mm 10mm 35mm;
 }
 
 body {
@@ -294,7 +294,7 @@ body {
     font-size: 16px;
     border-bottom: 1px solid #111;
     line-height: 0.1em;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 .section__header span {
@@ -315,8 +315,13 @@ body {
 .education {
     margin-bottom: 20px;
 }
+
+.experience {
+    margin-bottom: 20px;
+}
+
 .experience__name, .education__name {
-    margin: 0px 5px 5px 0px;
+    margin: 2px 5px 7px 0px;
     display: inline-flex;
     font-weight: 300;
     color: #467fde;
@@ -329,7 +334,7 @@ body {
 }
 
 .experience__detail, .education__detail {
-    margin: 5px 0px;
+    margin: 10px 0px;
     font-weight: 200;
 }
 
