@@ -25,6 +25,11 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+@page {
+    size: 21cm 29.7cm;
+    margin: 10mm 30mm 10mm 30mm; /* change the margins as you want them to be. */
+}
+
 body {
     line-height: 1;
 }
