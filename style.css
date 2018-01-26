@@ -113,6 +113,14 @@ body {
     background-size: 45px;
 }
 
+.farfetch-image {
+    background-image: url('./images/farfetch.png');
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    background-size: 50px;
+    background-position-y: 4px;
+}
+
 .bold-image {
     background-image: url('./images/boldint.png');
     background-repeat: no-repeat;
@@ -135,6 +143,20 @@ body {
     padding-left: 55px;
     background-size: 45px;
     background-position-y: 1px;
+}
+
+.evostar-image {
+    background-image: url('./images/evostar.png');
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    background-size: 40px;
+}
+
+.thesis-image {
+    background-image: url('./images/thesis.png');
+    background-repeat: no-repeat;
+    padding-left: 55px;
+    background-size: 45px;
 }
 
 .estg-image {
