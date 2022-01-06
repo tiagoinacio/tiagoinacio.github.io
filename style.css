@@ -221,6 +221,14 @@ body {
   background-position-y: 2px;
 }
 
+.appliedsciences-image {
+  background-image: url('./images/applied-sciences.png');
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  background-size: 45px;
+  background-position-y: 1px;
+}
+
 .ieee-image {
   background-image: url('./images/ieee.gif');
   background-repeat: no-repeat;
@@ -245,6 +253,14 @@ body {
 
 .estg-image {
   background-image: url('./images/leiria.png');
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  background-size: 45px;
+  background-position-y: 2px;
+}
+
+.etic-image {
+  background-image: url('./images/etic.gif');
   background-repeat: no-repeat;
   padding-left: 55px;
   background-size: 45px;
