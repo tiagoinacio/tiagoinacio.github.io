@@ -317,7 +317,7 @@ body {
 }
 
 .music-production {
-  background-image: url('./images/music-production.svg');
+  background-image: url('./images/keyboard.png');
   background-repeat: no-repeat;
   background-size: 20px;
 }
@@ -348,6 +348,18 @@ body {
 
 .reading {
   background-image: url('./images/reading.svg');
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.boxing {
+  background-image: url('./images/boxing.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+.mixing {
+  background-image: url('./images/mixing.png');
   background-repeat: no-repeat;
   background-size: 20px;
 }
@@ -438,14 +450,15 @@ body {
 
 .experience__date,
 .education__date {
-  display: flex;
+  display: inline-flex;
+  vertical-align: middle;
   margin: 0px 5px 5px 0px;
   font-weight: 300;
 }
 
 .experience__detail,
 .education__detail {
-  margin: 10px 0px;
+  margin-bottom: 10px;
   font-weight: 200;
 }
 
